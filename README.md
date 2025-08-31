@@ -36,12 +36,26 @@
 - **Limited Features & Variable-Length Inputs:** Feature engineering and BioClinicalBERT representations  
 - **Imbalanced Dataset:** Explore up-sampling, down-sampling, and weighted loss approaches  
 
-## Experiments
-![](Figure/Model_Comparison.png)
-![](Figure/Imbalance.png)
-![](Figure/Ablation_DSP.png)
-![](Figure/Text.png)
-![](Figure/Text_MLP.png)
-![](Figure/DL_Based.png)
-![](Figure/Feature_Importance.png)
+## Results
+
+### Model Performance Comparison  
+![](Figure/Model_Comparison.png)  
+
+### Effectiveness of Class Imbalance Strategies  
+![](Figure/Imbalance.png)  
+
+### Impact of Different Feature Engineering Techniques  
+![](Figure/Ablation_DSP.png)  
+
+### Contribution of Text-Based Features  
+![](Figure/Text.png)  
+
+### Effect of Adding Text Features to a Deep Learning Model (MLP)  
+![](Figure/Text_MLP.png)  
+
+### Comparing Deep Learning Models (FT-Transformer) vs. XGBoost  
+![](Figure/DL_Based.png)  
+
+### Feature Importance Analysis  
+![](Figure/Feature_Importance.png)  
 
