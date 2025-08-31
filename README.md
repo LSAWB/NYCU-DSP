@@ -23,9 +23,9 @@
 - **Textual Representation:** Convert `[column name] [value]` into embeddings using **BioClinicalBERT**  
 
 ## Evaluation
-###Evaluation Metric: 
+### Evaluation Metric: 
 ![](Figure/Evaluation_Metric.png)
-###Evaluation Strategy: 
+### Evaluation Strategy: 
 ![](Figure/Evaluation_Strategy.png)
 
 ## Addressing Key Challenges
