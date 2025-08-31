@@ -37,5 +37,11 @@
 - **Imbalanced Dataset:** Explore up-sampling, down-sampling, and weighted loss approaches  
 
 ## Experiments
-
+![](Figure/Model_Comparison.png)
+![](Figure/Imbalance.png)
+![](Figure/Ablation_DSP.png)
+![](Figure/Text.png)
+![](Figure/Text_MLP.png)
+![](Figure/DL_Based.png)
+![](Figure/Feature_Importance.png)
 
