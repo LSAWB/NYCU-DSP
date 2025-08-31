@@ -3,8 +3,6 @@
 **Competition:** [PhysioNet Challenge 2019](https://physionet.org/content/challenge-2019/1.0.0/)  
 **Research Aim:** Develop a model to predict sepsis at an early stage, before clinical diagnosis.
 
----
-
 ## Challenges
 - **Limited Raw Features:** Only 40 features are available in the dataset.  
 - **High Missing Rates:** Most features have missing rates above 90%.  
@@ -13,15 +11,8 @@
 
 ---
 
-## Contributions
-- Address dataset imbalance and variable-length time series issues  
-- Improve clinical outcome prediction  
-- Enhance model interpretability  
-
----
-
 ## Methodology
-**Pipeline:**  
+### Pipeline  
 `Input → Feature Engineering → Missing Value Imputation (LOOF) → Sampling (Down/Up) → Modeling (XGBoost)`
 
 ### Feature Engineering
@@ -31,15 +22,18 @@
 - **Empirical Scores:** Incorporate clinical scores such as SOFA and ∆SOFA  
 - **Textual Representation:** Convert `[column name] [value]` into embeddings using **BioClinicalBERT**  
 
----
-
 ## Evaluation
 - **Evaluation Metric:** *[Specify metric used]*  
 - **Evaluation Strategy:** *[Specify validation strategy]*  
-
----
 
 ## Addressing Key Challenges
 - **High Missing Rate:** Missing-value imputation + missingness indicators  
 - **Limited Features & Variable-Length Inputs:** Feature engineering and BioClinicalBERT representations  
 - **Imbalanced Dataset:** Explore up-sampling, down-sampling, and weighted loss approaches  
+
+
+
+## Contributions
+- Address dataset imbalance and variable-length time series issues  
+- Improve clinical outcome prediction  
+- Enhance model interpretability  
