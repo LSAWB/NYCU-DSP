@@ -23,15 +23,15 @@
 - **Textual Representation:** Convert `[column name] [value]` into embeddings using **BioClinicalBERT**  
 
 ## Evaluation
-- **Evaluation Metric:** *[Specify metric used]*  
-- **Evaluation Strategy:** *[Specify validation strategy]*  
+###Evaluation Metric: 
+![](Figure/Evaluation_Metric.png)
+###Evaluation Strategy: 
+![](Figure/Evaluation_Strategy.png)
 
 ## Addressing Key Challenges
-- **High Missing Rate:** Missing-value imputation + missingness indicators  
+- **High Missing Rate:** Missing-value imputation + XGBoost
 - **Limited Features & Variable-Length Inputs:** Feature engineering and BioClinicalBERT representations  
 - **Imbalanced Dataset:** Explore up-sampling, down-sampling, and weighted loss approaches  
-
-
 
 ## Contributions
 - Address dataset imbalance and variable-length time series issues  
