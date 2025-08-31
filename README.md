@@ -9,8 +9,11 @@
 - **Variable-Length Inputs:** The number of available records varies at each hour.  
 - **Label Imbalance:** Only 7.26% of patients develop sepsis (1.8% of total records).  
 
----
-
+## Contributions
+- Address dataset imbalance and variable-length time series issues  
+- Improve clinical outcome prediction  
+- Enhance model interpretability
+  
 ## Methodology
 ### Pipeline  
 `Input → Feature Engineering → Missing Value Imputation (LOOF) → Sampling (Down/Up) → Modeling (XGBoost)`
@@ -23,9 +26,9 @@
 - **Textual Representation:** Convert `[column name] [value]` into embeddings using **BioClinicalBERT**  
 
 ## Evaluation
-### Evaluation Metric: 
+### Evaluation Metric
 ![](Figure/Evaluation_Metric.png)
-### Evaluation Strategy: 
+### Evaluation Strategy 
 ![](Figure/Evaluation_Strategy.png)
 
 ## Addressing Key Challenges
@@ -33,7 +36,6 @@
 - **Limited Features & Variable-Length Inputs:** Feature engineering and BioClinicalBERT representations  
 - **Imbalanced Dataset:** Explore up-sampling, down-sampling, and weighted loss approaches  
 
-## Contributions
-- Address dataset imbalance and variable-length time series issues  
-- Improve clinical outcome prediction  
-- Enhance model interpretability  
+## Experiments
+
+
